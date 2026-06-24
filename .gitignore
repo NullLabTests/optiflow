@@ -1,34 +1,23 @@
-# Python
+# Byte-compiled
 __pycache__/
 *.py[cod]
-*.egg-info/
-venv/
-.venv/
-*.egg
+*$py.class
 
-# Environment
+# Env
 .env
-.env.local
-
-# Node
-node_modules/
-.next/
-npm-debug.log*
+.venv
+venv/
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Docker
-pgdata/
-
-# Testing
-.pytest_cache/
-htmlcov/
-.coverage
+# Build
+dist/
+build/
+*.egg-info/
